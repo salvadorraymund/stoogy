@@ -1,0 +1,35 @@
+.fade.in {
+  opacity: 1;
+}
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.modal-backdrop .fade .in {
+  opacity: 0.5 !important;
+}
+
+
+.modal-backdrop.fade {
+    opacity: 0.5 !important;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	margin-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+
